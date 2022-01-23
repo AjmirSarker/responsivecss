@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* HEADER */
+.slide-1{
+    background-image: url('images/banner.png');   
+}
+.sl{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-color: rgba(0,0,0,.3);
+    background-blend-mode: overlay;
+}
+.slide-2{
+    background-image: url('/images/deco.jpg'); 
+}
+.slide-3{
+    background-image: url('images/khana.jpg');
+}
+/* MAIN */
+
+.package-section h2{
+    font-family: var(--poppins);
+    font-weight: 600;
+    color: #0A0826;
+    margin-top: 100px !important;
+    margin-bottom: 80px !important;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card h3, .card h4{
+    font-family: var(--roboto);
+    color: #231D4F;
+    font-weight: 700;
+}
+
+.card p{
+    color: #848199;
+    font-size: 15px;
+    font-family: var(--poppins);
+}
+
+.card .button{
+    padding: 8px 60px;
+    border-radius: 20px;
+    background-color: #ffe7f6a8;
+    text-decoration: none;
+    color: #3f88f5c9;
+}
+
+.fa-check-circle{
+    padding-right: 7px;
+    color: #b8b1f1;
+}
+.card-plus{
+    background-color: #3F87F5;
+    border-radius: 26px;
+    box-shadow: 0px 10px 9px 9px #accbfa85;
+    margin-bottom: 18px !important;
+    top: 0;
+}
+
+.card-plus h3, .card-plus h4, .card-plus p{
+    color: white !important;
+}
+
+.card-plus .fa-check-circle{
+    color: #8eb6f1;
+}
+
+.card-plus .button{
+    background-color: white;
+}
+.top{
+    position: relative;
+ transform: translateY(-60px);
+ margin-top: 30px !important;
+}
+.top-up{
+    position: absolute;
+    background-color: #FF4E4E;
+    border-radius: 20px;
+   bottom: 100px;
+    right: -10px;
+
+}
