@@ -32,6 +32,7 @@ body{
     
 
 }
+/* PACK */
 .package-section h2{
     font-family: var(--poppins);
     font-weight: 600;
@@ -53,7 +54,7 @@ body{
 .card p{
     color: #848199;
     font-size: 15px;
-    font-family: var(--poppins);
+   
 }
 
 .card .button{
@@ -67,6 +68,7 @@ body{
 .fa-check-circle{
     padding-right: 7px;
     color: #b8b1f1;
+    /* background-color: #5243C2; */
 }
 .card-plus{
     background-color: #3F87F5;
@@ -99,4 +101,12 @@ body{
    bottom: 100px;
     right: -10px;
 
+}
+/* OWN PART */
+.icon-clr{
+    color: rgb(102, 99, 99);
+}
+/* FOOTER */
+.mt{
+    margin-top: 100px;
 }
