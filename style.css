@@ -2,17 +2,12 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.COURSOR{
+    cursor: grab;
+}
 /* HEADER */
 .slide-1{
     background-image: url('images/banner.png');   
-}
-.sl{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
-    background-color: rgba(0,0,0,.3);
-    background-blend-mode: overlay;
 }
 .slide-2{
     background-image: url('/images/deco.jpg'); 
@@ -20,6 +15,15 @@ body{
 .slide-3{
     background-image: url('images/khana.jpg');
 }
+.sl{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 71vh;
+    background-color: rgba(0,0,0,.3);
+    background-blend-mode: overlay;
+}
+
 /* MAIN */
 
 /* TOAST */
@@ -33,20 +37,20 @@ body{
 
 }
 /* PACK */
-.package-section h2{
-    font-family: var(--poppins);
+.package h2{
+    
     font-weight: 600;
     color: #0A0826;
-    margin-top: 100px !important;
-    margin-bottom: 80px !important;
+    margin-top: 90px !important;
+    margin-bottom: 70px !important;
 }
 
-.card{
+.COURSOR{
     cursor: pointer;
 }
 
-.card h3, .card h4{
-    font-family: var(--roboto);
+.header-clr{
+    
     color: #231D4F;
     font-weight: 700;
 }
@@ -68,9 +72,9 @@ body{
 .fa-check-circle{
     padding-right: 7px;
     color: #b8b1f1;
-    /* background-color: #5243C2; */
+    
 }
-.card-plus{
+.highlight-no3{
     background-color: #3F87F5;
     border-radius: 26px;
     box-shadow: 0px 10px 9px 9px #accbfa85;
@@ -78,17 +82,18 @@ body{
     top: 0;
 }
 
-.card-plus h3, .card-plus h4, .card-plus p{
+.highlight-no3 h3, .highlight-no3 h4, .highlight-no3 p{
     color: white !important;
 }
 
-.card-plus .fa-check-circle{
+.highlight-no3 .fa-check-circle{
     color: #8eb6f1;
 }
 
-.card-plus .button{
+.highlight-no3 .button{
     background-color: white;
 }
+/* HOT */
 .top{
     position: relative;
  transform: translateY(-60px);
